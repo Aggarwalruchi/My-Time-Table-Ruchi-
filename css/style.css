@@ -1,0 +1,51 @@
+/* google fonts -> Lobster (regural 400) AND Varela Round (regular 400) */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
+
+body{
+    /* background-color: rgb(240,240,240); */
+    background-image: linear-gradient(to right, rgb(195, 228, 238), rgb(211, 150, 168), rgb(154, 223, 169));
+    font-family: 'Varela Round', sans-serif;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* margin: 0; */
+}
+
+th,td{
+    padding: 23px;
+}
+
+th{
+    background-color: #17A2B8;
+    color: white;
+}
+
+td{
+    background-color: rgb(240,240,240);
+}
+
+table{
+
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    
+}
+
+h1{
+    font-size: 28pt;
+    color: #15606b;
+    text-align: center;
+    font-family: 'Lobster', cursive;;
+}
+
+table > caption{
+    color: crimson;
+}
+
+.active{
+    background-color: #28A745;
+    color: rgb(240,240,240);
+}
